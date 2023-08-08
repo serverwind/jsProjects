@@ -3,7 +3,8 @@ const BUTTON_CHECK = document.getElementById("submit");
 BUTTON_CHECK.addEventListener("click", checkWord);
 
 function checkWord() {
-  const input_word = document.getElementById("inputWord").value;
+  let input_word = document.getElementById("inputWord").value;
+  input_word = input_word.toLowerCase();
   let wordLen = input_word.length;
   let reverse = "";
 
