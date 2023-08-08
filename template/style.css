@@ -1,0 +1,42 @@
+:root {
+  --large: 1.5em;
+  --normal: 1.1em;
+
+  --dark: #242424;
+  --white: #dfdfdf;
+}
+
+html,
+body {
+  margin: 0;
+  font-family: courier, monospace;
+  color: var(--dark);
+  background-color: var(--white);
+}
+
+main {
+  text-align: center;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+h1 {
+  margin-bottom: var(--large);
+}
+
+h1 span {
+  border-bottom: 2px solid var(--dark);
+  font-size: var(--large);
+}
+
+p,
+input,
+button {
+  font-size: var(--normal);
+}
+
+button {
+  border: 2px solid var(--dark);
+  background-color: var(--dark);
+  color: var(--white);
+}
